@@ -138,7 +138,7 @@ var gameState = {
     if(enemy.owner == 'user') {
       var minusPercent = ((enemy.health * 100) / enemy.originalHealth)
       userHP.style.width = ((minusPercent < 0) ? 0 : minusPercent) + '%';
-    } 
+    }
     else {
       var minusPercent = ((attacker.health * 100) / attacker.originalHealth)
       cpuHP.style.width = ((minusPercent < 0) ? 0 : minusPercent) + '%';
@@ -148,10 +148,10 @@ var gameState = {
   checkWinner: function (enemy, attacker) {
     document.querySelector('.fight-btn').innerHTML = ''
     if (enemy.health <= 0) {
-      document.querySelector('.fight-btn').innerHTML = 'winner ' + attacker.name
+      document.querySelector('.fight-btn').innerHTML = attacker.name + ' Wins'
     }
     if (attacker.health <= 0) {
-      document.querySelector('.fight-btn').innerHTML = 'winner ' + enemy.name
+      document.querySelector('.fight-btn').innerHTML = enemy.name + ' Wins'
     }
   },
   // Generator for index on random pokemon
@@ -171,7 +171,7 @@ var gameState = {
     // Initial loop to get elements on the pokemon list
     for (var i = 0; i < gameState.elements.pokemonsEL.length; i++) {
       gameState.elements.pokemonsEL[i].onclick = function () {
-        // Get the data name from the pokemon being click 
+        // Get the data name from the pokemon being click
         var name = this.dataset.pokemon;
 
         // Sets the name to the state of the game
