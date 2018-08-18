@@ -1,1 +1,1 @@
-Pokemon Game Tutorial with Vanilla JS
+Pokemon Game Built HTML, CSS and Vanilla JS
