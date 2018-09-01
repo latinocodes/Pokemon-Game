@@ -7,7 +7,7 @@ A simple Pokemon Game that utilizes the rock, paper, Scissors concept with Pokem
 
 
 ####  How to run this code
-1. Visit the lives game [Here.](https://latinocodes.github.io/Pokemon-Game/)
+1. Visit the live game [Here.](https://latinocodes.github.io/Pokemon-Game/)
 
 ---- 
 
