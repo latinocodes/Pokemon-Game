@@ -1,5 +1,7 @@
 # Pokemon Game with Rock, Paper, and Scissors concept.
 
+[![build status of master](https://travis-ci.org/latinocodes/Pokemon-Game.svg?branch=master)](https://travis-ci.org/latinocodes/Pokemon-Game)
+
 A simple Pokemon Game that utilizes the rock, paper, Scissors concept with Pokemons Figthing each other.
 
 #### What you need to run this code
